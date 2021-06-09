@@ -1,0 +1,33 @@
+//variables//
+$colorP:#e6b517;
+$textoMid:center;
+$paddingD:20px;
+$paddingT:20px;
+
+
+ *{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    font-family:'Oswald', sans-serif;
+    color: white;
+
+}
+
+.section{
+    
+    &__div{
+        color:$colorP;
+        text-align:$textoMid;
+        padding:20px;
+        font-size: 1.5rem;
+    }
+}
+
+.posicion{
+    position:center;
+    padding: $paddingT;
+}
+
